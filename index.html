@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">Subhasini</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Subhasini</h1>
+          <h2>AIML Student | Sports Player</h2>
+          <p>
+            I am Subhasini. I am an AIML student and also a sports player.
+            I combine my passion for technology with the focus and discipline of athletics.
+          </p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+            <a href="achievements.html" class="btn btn-secondary"><i class="fa-solid fa-medal"></i> View Achievements</a>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar" aria-label="Profile photo placeholder">
+            <div>
+              <i class="fa-solid fa-user"></i>
+              <span>Profile Photo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; <span id="year"></span> Subhasini. Built with passion in pink.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

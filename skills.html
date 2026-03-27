@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">Subhasini</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-header">
+      <div class="container">
+        <h1 class="section-title">Skills</h1>
+        <p>Technical and sports strengths that shape my approach.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 14px;">
+      <div class="container skills-grid">
+        <article class="card">
+          <h2 class="section-title" style="font-size:1.3rem; margin-bottom: 16px;"><i class="fa-solid fa-laptop-code"></i> Technical Skills</h2>
+
+          <div class="progress-item"><div class="progress-head"><span>HTML</span><span>92%</span></div><div class="bar"><div class="fill" style="width:92%"></div></div></div>
+          <div class="progress-item"><div class="progress-head"><span>CSS</span><span>88%</span></div><div class="bar"><div class="fill" style="width:88%"></div></div></div>
+          <div class="progress-item"><div class="progress-head"><span>JavaScript</span><span>85%</span></div><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+          <div class="progress-item"><div class="progress-head"><span>Python</span><span>80%</span></div><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+          <div class="progress-item"><div class="progress-head"><span>React</span><span>78%</span></div><div class="bar"><div class="fill" style="width:78%"></div></div></div>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title" style="font-size:1.3rem; margin-bottom: 16px;"><i class="fa-solid fa-baseball-bat-ball"></i> Sports Skills</h2>
+          <div class="pills">
+            <span class="pill">Cricket</span>
+            <span class="pill">Football</span>
+            <span class="pill">Athletics</span>
+            <span class="pill">Team Coordination</span>
+            <span class="pill">Game Strategy</span>
+            <span class="pill">Mental Toughness</span>
+            <span class="pill">Discipline</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; <span id="year"></span> Subhasini. Built with passion in pink.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
