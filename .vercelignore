@@ -1,0 +1,10 @@
+node_modules
+.git
+.gitattributes
+.gitignore
+*.backup
+.DS_Store
+.env.local
+.env.*.local
+README.md
+FEATURES_ADDED.md
