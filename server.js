@@ -7,8 +7,11 @@ const messages = [];
 let nextMessageId = 1;
 
 app.use(express.json());
+
+// Serve static files from root directory
 app.use(express.static(path.join(__dirname)));
 
+// Health check endpoint
 app.get("/api/health", (req, res) => {
   res.json({ status: "ok", message: "Backend is running" });
 });
