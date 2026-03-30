@@ -8,8 +8,8 @@ import ContactForm from './components/ContactForm';
 
 export default function Home() {
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.AOS) {
-      window.AOS.init({
+    if (typeof window !== 'undefined' && (window as any).AOS) {
+      (window as any).AOS.init({
         duration: 800,
         once: false,
         offset: 100,
@@ -43,8 +43,8 @@ export default function Home() {
     element.style.padding = '20px';
     element.style.fontFamily = 'Poppins, sans-serif';
 
-    if (typeof html2pdf !== 'undefined') {
-      html2pdf().set({
+      if (typeof (window as any).html2pdf !== 'undefined') {
+        (window as any).html2pdf().set({
         margin: 10,
         filename: 'Subhasini_Ravikumar_Resume.pdf',
         image: { type: 'jpeg', quality: 0.98 },
@@ -229,8 +229,6 @@ export default function Home() {
       <footer>
         <div className="container">&copy; <span id="year"></span> Subhasini Ravikumar. Built with passion in pink.</div>
       </footer>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     </>
   );
 }

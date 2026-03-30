@@ -9,15 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "chart.js": "^4.4.0",
+    "html2pdf.js": "^0.10.1",
+    "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "next": "^14.0.0",
-    "aos": "^2.3.4",
-    "typed.js": "^2.0.12",
-    "chart.js": "^4.4.0",
-    "html2pdf.js": "^0.10.1"
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
     "eslint": "^8.50.0",
     "eslint-config-next": "^14.0.0"
   }
