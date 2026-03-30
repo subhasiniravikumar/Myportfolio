@@ -1,15 +1,24 @@
 {
-  "name": "portfolio-site",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Multi-page portfolio with Express backend",
-  "main": "server.js",
+  "name": "portfolio-nextjs",
+  "version": "2.0.0",
+  "description": "Optimized portfolio with Next.js and React",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "build": "echo 'Build complete'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "aos": "^2.3.4",
+    "typed.js": "^2.0.12",
+    "chart.js": "^4.4.0",
+    "html2pdf.js": "^0.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0"
   }
 }
